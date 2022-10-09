@@ -1,0 +1,202 @@
+a {
+    text-decoration: none
+}
+body {
+    display:grid;
+}
+#server-meny {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    background-color: black;
+    bottom: 0;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: space-between;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 66px;
+    z-index: 800;
+}
+#nav-top {
+    display: grid;
+    flex-direction: column;
+    justify-items: center;
+}
+#channels-panel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    background-color: rgb(49, 47, 47);
+    bottom: 0;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-items: center;
+    left: 66px;
+    position: fixed;
+    top: 0;
+    width: 250px;
+    z-index: 800;
+    background-color: #bacdd8;
+}
+#wikiname {
+    color: black;
+    font-size: 20px;
+}
+#channels-panel-2 {
+    display: grid;
+    flex-direction: column;
+    justify-items: center;
+}
+#channels-list {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    position: relative;
+
+}
+.сategories {
+    color: black;
+    font-size: 20px;
+}
+.channels {
+    color: black;
+    font-size: 18px;
+    width: 240px;
+}
+.is-active {
+    background-color: #ccdded;
+    border-radius: 6px;
+}
+#chat {
+    background-color: #d4e6f7;
+    left: 316px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 250px;
+    color: black;
+}
+#messages {
+    position: fixed;
+    left: 326px;
+    right: 260px;
+}
+.editor {
+    background-color: #eaf3fb;
+    color: black;
+    position: fixed;
+    bottom: 10px;
+    left: 326px;
+    right: 260px;
+}
+p {
+    margin-top: 5px;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+}
+.message {
+    display: flex;
+    margin-top: 10px;
+}
+.message-body {
+    margin-left: 10px;
+}
+.message-management-meny-link {
+    margin-left: auto;
+    position: relative;
+    left: 180px;
+    color: black;
+    font-size: 24px;
+}
+.message-management-meny {
+    margin-top: 30px;
+    margin-left: 0;
+    list-style-type: none;
+    background-color: #323C3C;
+}
+li {
+    color: white;
+    margin: 5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.userprofilelink {
+    font-size: 20px;
+}
+.userprofilelink-antarkt {
+    color: black;
+}
+#right-panel {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: space-between;
+    right: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #bacdd8;
+}
+#wiki-right-info {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+    top: 10px;
+    position: relative;
+    font-size: 20px;
+}
+#right-subpanel {
+    display: flex;
+}
+#wiki-right-buttoms {
+    margin-left: auto;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+#users-list span{
+    color: black;
+    font-size: 20px;
+}
+#users-list {
+    position: fixed;
+    top: 65px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.sublist-users {
+    display: flex;
+    flex-direction: column;
+}
+.panel-toggle {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    z-index: 801;
+}
+#left-panel-toggle {
+    left: 306px;
+    position: fixed;
+    top: 10px;
+    /*bottom: 0;
+    right: 250px;*/
+}
+#right-panel-toggle {
+    position: relative;
+    bottom: 900px;
+    right: 15px;
+}
+.message-management-meny {
+    z-index: 801px;
+}
